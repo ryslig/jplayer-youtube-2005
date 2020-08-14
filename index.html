@@ -1,0 +1,55 @@
+<link rel="stylesheet" type="text/css" href="2005.css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.jplayer.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	$("#jquery_jplayer_1").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Video",
+				m4v: "video.mp4",
+				poster: "thumb.jpg"
+			});
+		},
+		swfPath: "",
+		supplied: "m4v",
+		size: {
+			width: "405px",
+			height: "303px",
+			cssClass: "player"
+		},
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: false,
+		keyEnabled: false,
+		remainingDuration: false,
+		toggleDuration: false
+	});
+
+});
+//]]>
+</script>
+<div id="jp_container_1" role="application" aria-label="media player">
+	<div class="jp-type-single">
+		<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+		<div class="jp-gui">
+			<div class="jp-interface">
+				<button class="jp-play" role="button" tabindex="0">play</button>
+				<button class="jp-pause" role="button" tabindex="0">pause</button>
+				<div class="jp-progress">
+					<div class="jp-seek-bar">
+						<div class="jp-play-bar"></div>
+					</div>
+				</div>
+				<button class="jp-mute" role="button" tabindex="0">mute</button>
+				<button class="jp-unmute" role="button" tabindex="0">unmute</button>
+			</div>
+		</div>
+		<div class="jp-no-solution">
+			<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+		</div>
+	</div>
+</div>

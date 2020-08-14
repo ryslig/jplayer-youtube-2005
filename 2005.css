@@ -1,0 +1,111 @@
+* {
+	outline: none;
+}
+	
+.player {
+	width: 425px;
+	height: 350px;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+#jquery_jplayer_1 {
+	width: 405px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: #000000;
+}
+
+video {
+	object-fit: fill;
+}
+
+.jp_video_0 {
+	width: 320px;
+	height: 240px;
+}
+
+.jp-interface {
+	background-image: url('bar.png');
+	height: 22px;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 7px;
+	width: 386px;
+	margin: auto;
+}
+
+.jp-progress {
+	background-color: #999999;
+	width: 360px;
+}
+
+.jp-seek-bar {
+	width: 360px;
+	cursor: pointer;
+}
+	
+.jp-play-bar {
+	background-color: #333333;
+	height: 4px;
+}
+
+.jp-progress {
+	width: 340px;
+	margin: auto;
+	position: relative;
+	top: 9px;
+}
+
+.jp-play {
+	background-image: url('play.png');
+	width: 6px;
+	position: relative;
+    background-repeat: no-repeat;
+    top: 8px;
+    left: 10px;
+	height: 6px;
+}
+
+.jp-pause {
+	background-image: url('pause.png');
+	width: 6px;
+	position: relative;
+    background-repeat: no-repeat;
+    top: 8px;
+    left: 10px;
+	height: 6px;
+}
+
+.jp-mute {
+	background-image: url('sound.png');
+	width: 8px;
+	position: relative;
+    background-repeat: no-repeat;
+    left: 355px;
+	top: 2.9px;
+	height: 8px;
+}
+
+.jp-unmute {
+	background-image: url('mute.png');
+	width: 8px;
+	position: relative;
+    background-repeat: no-repeat;
+    left: 355px;
+	top: 2.9px;
+	height: 8px;
+}
+
+.jp-interface button {
+    display: block;
+    float: left;
+    text-indent: -9999px;
+    cursor: pointer;
+    overflow: hidden;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
